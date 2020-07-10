@@ -1,0 +1,70 @@
+body {
+    background: black;
+}
+
+#cuadro>div {
+    width: calc((100%) / 5);
+    height: 192px;
+    background-image: url('foto.jpg');
+    display: inline-block;
+    border-radius: 10px;
+    border-color: red blue yellow green;
+    margin: 2%;
+    cursor: pointer;
+    transition: transform ease .3s;
+}
+
+#cuadro>div:hover {
+    transform: scale(1.2);
+}
+
+#cuadro {
+    text-align: center;
+    width: 100%;
+}
+
+.abrir img {
+    display: inline-block;
+}
+
+.tarjeta {
+    display: none;
+    width: 100%;
+}
+
+.tarjetas {
+    width: 100%;
+    border: 1px solid;
+}
+
+.letra {
+    text-align: center;
+    background: linear-gradient(red, white);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 70px;
+}
+
+.boton {
+    color: white;
+    background: black;
+}
+
+.reglas {
+    color: aqua;
+}
+
+.racha {
+    color: red;
+    font-size: 30px;
+}
+
+.rachas {
+    color: red;
+    font-size: 30px;
+}
+
+.vida {
+    color: red;
+    font-size: 30px;
+}
